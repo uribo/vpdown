@@ -1,0 +1,22 @@
+Package: vpdown
+Title: Vue-powered Static Site Generator with R Markdown
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Shinya",
+             family = "Uryu",
+             role = c("aut", "cre"),
+             email = "suika1127@gmail.com",
+             comment = c(ORCID = "0000-0002-0493-6186")),
+      person("Evan", 
+             "You", 
+             role = "cph",
+             comment = "vuepress library"))
+Maintainer: Shinya Uryu <suika1127@gmail.com>
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+URL: https://github.com/uribo/vpdown, https://vuepress.vuejs.org
+BugReports: https://github.com/uribo/vpdown/issues
+SystemRequirements: VuePress (>= 1.0.0) for static site generator tools.
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
