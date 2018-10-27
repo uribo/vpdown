@@ -29,5 +29,9 @@ RUN set -x && \
 RUN set -x && \
   install2.r --error \
     here \
+    rcmdcheck \
     usethis && \
+  installGithub.r \
+    "r-lib/roxygen2md" \
+    "uribo/textlintr" && \
   rm -rf /tmp/downloaded_packages/ /tmp/*.rds
