@@ -1,6 +1,8 @@
+^\.lintr$
 ^Dockerfile$
 ^docker-compose\.yml$
 ^\.env$
 ^LICENSE\.md$
 ^vpdown\.Rproj$
 ^\.Rproj\.user$
+^\.DS_Store$
