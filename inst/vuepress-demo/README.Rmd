@@ -1,0 +1,29 @@
+---
+title: "vpdown"
+home: true
+output:
+  html_document:
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+hi
+
+```{r}
+library(vpdown)
+```
+
+
+```{r, eval = FALSE, echo = TRUE}
+install_vuepress(global = FALSE)
+```
+
+
+```{r, eval = FALSE, echo = TRUE}
+render_site()
+```
+
+$J \left( \theta_0, \theta_1 \right) = \frac{1}{2m}\sum\limits_{i=1}^m \left( h_{\theta}(x^{(i)})-y^{(i)} \right)^{2}$

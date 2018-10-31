@@ -1,0 +1,11 @@
+Title: Website using VuePress
+Binding: vpdown_skeleton
+Subtitle: Create a new Vue-powered static site with VuePress
+Caption: Create a new Vue-powered static site with VuePress
+Icon: vuepress-logo.png
+
+Parameter: install_vuepress
+Widget: SelectInput
+Label: Install VuePress automatically
+Fields: none, in project, global
+Position: left
