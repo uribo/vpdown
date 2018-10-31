@@ -24,6 +24,6 @@ path2vuepress_dir <- function(global = FALSE, path = NULL) {
 
 path2local_vuepress <- function(path) {
   paste(path,
-        "node_modules/vuepress/vuepress.js",
+        "node_modules/vuepress/bin/vuepress.js",
         sep = "/")
 }

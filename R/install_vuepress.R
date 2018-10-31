@@ -20,10 +20,10 @@ install_vuepress <- function(global = FALSE, dir = ".") {
     path2vuepress_dir(global, dir)
 
   if (path == "") {
-    system("yarn global add vuepress@next")
+    system("yarn global add vuepress")
   } else if (rlang::is_true(file.exists(path2local_vuepress(path)))) {
     rlang::inform("Already, installed vuepress")
   } else {
-    system(paste("cd", path, "&& yarn add -D vuepress@next"))
+    system(paste("cd", path, "&& yarn add -D vuepress"))
   }
 }
