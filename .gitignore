@@ -2,4 +2,7 @@
 .RData
 .Rproj.user
 .env
+inst/samples/node_modules
+inst/samples/docs/.vuepress
+*.lock
 .DS_Store

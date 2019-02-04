@@ -1,4 +1,5 @@
 ^\.lintr$
+^inst/samples
 ^Dockerfile$
 ^docker-compose\.yml$
 ^\.env$
